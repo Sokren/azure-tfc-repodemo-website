@@ -1,4 +1,4 @@
 #Outputs az file
 output "ip-pub" {
-  value = "http://${module.webVM.ip-public}"
+  value = "http://${module.moduledemo-website.ip-public}"
 }
