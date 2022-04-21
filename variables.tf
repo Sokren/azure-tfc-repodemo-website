@@ -19,3 +19,7 @@ variable "environment" {
   description = "Name of environment"
   default = "demo-dev"
 }
+variable "linux_password" {
+  type = string
+  description = "Password of the VM, set with TFE/TFC sensitive variable"
+}
